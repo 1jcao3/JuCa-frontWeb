@@ -52,10 +52,10 @@ export default function Settings() {
   }
 
   return (
-    <main className="container  m-auto  px-10 my-10 flex items-center justify-center md:flex-row flex-col">
+    <main className="container  m-auto  px-10 my-0 flex items-center justify-center md:flex-row flex-col">
     
 
-    <div className="flex items-center justify-center  p-0 min-h-screen m-auto   w-full ">
+    <div className="flex items-start my-10  justify-center  p-0 max-h-screen m-auto   w-full ">
       <div className="w-full p-8 shadow-md rounded-lg md:w-[70%] h-[50vh] md:h-[70vh] flex flex-col items-center  justify-center bed-about">
         <h2 className="text-2xl font-bold mb-6 text-center">Iniciar Sesión</h2>
         <form onSubmit={handleSubmit}>

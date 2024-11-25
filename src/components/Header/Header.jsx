@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import logo from "/src/assets/logo/logo-perfil.jpeg"
+import logo from "/src/assets/logo/foto cv.jpg"
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
@@ -55,7 +55,7 @@ export default function Header({ onMenuToggle }) {
             </li>
             <li className="flex flex-row items-center justify-between gap-2">
               <SiHyperskill className="icons" />
-              <Link to="/">Skills</Link>
+              <Link to="/skills">Skills</Link>
               <span className="text-[#3f3f40]">|</span>
             </li>
             <li className="flex flex-row items-center justify-between gap-2">

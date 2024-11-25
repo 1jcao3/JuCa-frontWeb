@@ -2,7 +2,7 @@
 import { GiPositionMarker } from "react-icons/gi";
 import { FaPhone } from "react-icons/fa6";
 import { SiGmail } from "react-icons/si";
-import logo from "/src/assets/logo/logo-perfil.jpeg"
+import logo from "/src/assets/logo/foto cv.jpg"
 
 export default function ProfileSection() {
   return (
