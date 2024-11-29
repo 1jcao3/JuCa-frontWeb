@@ -17,7 +17,7 @@ export default function Projects() {
         {projects.map((project) => (
           <Link to={`/projects/${project.id}`} key={project.id}>
             <div
-              className="border-solid border-2 bed-about mt-5 h-full p-0 rounded hover:bg-black hover:shadow-xl hover:-translate-y-2"
+              className="border-solid border-2 bed-about mt-5 h-full p-0 rounded hover:bg-black transition-transform duration-300 hover:scale-105 hover:shadow-lg"
               key={project.id}
             >
               <div className="h-full flex flex-col">
