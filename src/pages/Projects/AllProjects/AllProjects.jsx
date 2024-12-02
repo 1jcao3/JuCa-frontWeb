@@ -29,7 +29,7 @@ export default function AllProjects() {
   };
 
   return (
-    <section className="w-full">
+    <section className="w-[95%]">
       {selectedProject ? (
         <ProjectDetail
           project={selectedProject}

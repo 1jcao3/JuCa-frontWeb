@@ -2,7 +2,7 @@ import { technologies } from "../../../technologies";
 
 export default function Technologie() {
   return (
-    <div className="grid grid-cols-1 md:w-full gap-8 p-4 md:grid-cols-2 md:gap-8 w-[90%] m-auto">
+    <div className="grid grid-cols-1l gap-8 p-4 md:grid-cols-2 md:gap-8 w-[90%] m-auto">
       {technologies.map((technology, index) => (
         <div
           key={index}
