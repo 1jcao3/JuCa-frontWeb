@@ -40,7 +40,7 @@ export default function Header({ onMenuToggle }) {
             <IoLogoWhatsapp className="text-3xl text-[#25D366]" />
           </div>
         </div>
-        <nav className="h-12 flex p-3 px-6 flex-row justify-between items-center">
+        <nav className="h-12 flex p-3 px-6 flex-row justify-between items-center overflow-x-auto">
           <ul className="flex flex-row gap-2">
             <li className="flex flex-row items-center justify-between gap-2">
               <CgProfile className="icons" />

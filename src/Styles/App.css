@@ -62,3 +62,8 @@ img {
   height: auto;
   object-fit: cover; /* Ajusta el ajuste de la imagen según sea necesario */
 }
+
+.buttons-color{
+
+  background-color: #75737843;
+}

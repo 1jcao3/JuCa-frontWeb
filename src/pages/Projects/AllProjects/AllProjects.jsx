@@ -29,7 +29,7 @@ export default function AllProjects() {
   };
 
   return (
-    <section className="md:w-auto w-full">
+    <section className="w-full">
       {selectedProject ? (
         <ProjectDetail
           project={selectedProject}
@@ -38,10 +38,10 @@ export default function AllProjects() {
       ) : (
         <>
           <h2 className="mt-6 flex justify-start font-bold">All Projects</h2>
-          <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-4 gap-4">
+          <div className="grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-4 gap-8">
             {projects.map((project) => (
               <div
-                className="border-solid border-2 bed-about mt-5 rounded hover:bg-black hover:shadow-xl hover:-translate-y-2"
+                className="border-solid border-2 bed-about mt-5 rounded hover:bg-black hover:shadow-xl hover:scale-105 transition-transform duration-300 "
                 onClick={() => handleProjectClick(project)}
                 key={project.id}
               >
@@ -61,7 +61,7 @@ export default function AllProjects() {
                     <div className="flex items-end mt-auto">
                       <p className="flex flex-row items-center">
                         <VscDebugBreakpointData className="text-cyan-200" />
-                        <span className="icons">{project.language}</span>
+                        <span className="icons">{project.languaje}</span>
                       </p>
                     </div>
                   </div>

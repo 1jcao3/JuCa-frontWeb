@@ -21,7 +21,7 @@ export default function SideBar({ isOpen, onMenuToggle, sidebarRef }) {
           <div className="w-10 h-10">
             <img
               className="rounded-full w-full h-full object-cover"
-              src="/src/assets/logo/logo-perfil.jpeg"
+              src="/src/assets/logo/foto cv.jpg"
               alt="logo"
             />
           </div>
@@ -35,16 +35,22 @@ export default function SideBar({ isOpen, onMenuToggle, sidebarRef }) {
         </div>
         <nav className="flex flex-col w-full h-auo my-4 text-justify gap-4 items-center justify-start">
           <ul className="flex flex-col w-full gap-4 items-center justify-start">
-            <li className="flex w-full justify-start items-center gap-2 hover:bg-[#75737843] rounded p-2 ">
-            <IoHomeSharp className="icons"></IoHomeSharp><Link to="/">Home</Link>
+          <Link to="/" className="w-full" onClick={onMenuToggle}>
+            <li className="flex w-full justify-start items-center gap-2 hover:bg-[#75737843] rounded p-2 cursor-pointer ">
+            <IoHomeSharp className="icons"></IoHomeSharp>Home
             </li>
-            <li className="flex w-full justify-start items-center gap-2 hover:bg-[#75737843] rounded p-2 ">
-             <GoProjectSymlink className="icons"></GoProjectSymlink> <Link to="/projects">Projects</Link>
+            </Link>
+            <Link className="w-full" to="/projects" onClick={onMenuToggle}>
+            <li className="flex w-full justify-start items-center gap-2 hover:bg-[#75737843] rounded p-2 cursor-pointer ">
+             <GoProjectSymlink className="icons"></GoProjectSymlink> Projects
             </li>
-            <li className="flex w-full justify-start items-center gap-2 hover:bg-[#75737843] rounded p-2 ">
+            </Link>
+            <Link to="/skills" className="w-full" onClick={onMenuToggle}>
+            <li className="flex w-full justify-start items-center gap-2 hover:bg-[#75737843] rounded p-2 cursor-pointer">
             <SiHyperskill className="icons"></SiHyperskill>
-              <Link to="/about">Skills</Link>
+              Skills
             </li>
+            </Link>
           </ul>
         </nav>
       </div>
