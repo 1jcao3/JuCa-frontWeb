@@ -35,9 +35,9 @@ export default function Header({ onMenuToggle }) {
           </div>
           <div className="flex felx-row items-center gap-2">
             <SearchBar />
-            <FaFacebook className="text-2xl text-[#5077c9]" />
-            <IoLogoInstagram className="text-3xl text-[#c13584]" />
-            <IoLogoWhatsapp className="text-3xl text-[#25D366]" />
+            <Link target="_blank" rel="noopener noreferrer" to={"https://www.facebook.com/1jcao3"}><FaFacebook className="text-2xl text-[#ffffff]" /></Link>
+            <Link target="_blank" rel="noopener noreferrer" to={"https://www.instagram.com/1jcao3/"}><IoLogoInstagram className="text-3xl text-[#ffffff]" /></Link>
+            <Link target="_blank" rel="noopener noreferrer" to={"https://wa.me/3133746649"}><IoLogoWhatsapp className="text-3xl text-[#ffffff]" /></Link>
           </div>
         </div>
         <nav className="h-12 flex p-3 px-6 flex-row justify-between items-center overflow-x-auto">

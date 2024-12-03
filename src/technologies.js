@@ -13,7 +13,7 @@ export const technologies = [
   },
   {
     name: "JavaScript",
-    image: "/images/javascript.png",
+    image: "/images/js.png",
     description:
       "JavaScript intrigued me as a powerful tool for adding interactivity to websites. I began using it to make dynamic web applications and enhance user experiences.",
   },
@@ -37,8 +37,14 @@ export const technologies = [
   },
   {
     name: "Java",
-    image: "/images/Java.png",
+    image: "/images/java.png",
     description:
       "I started with Java to delve into object-oriented programming and backend development. Its widespread use in enterprise applications motivated me to learn it.",
   },
+  {
+    name: "git",
+    image: "/images/git.png",
+    description:
+      "I learned Git as a version control system, enabling me to manage code changes efficiently. It's a fundamental tool for collaborative development and project management.",
+  }
 ];
