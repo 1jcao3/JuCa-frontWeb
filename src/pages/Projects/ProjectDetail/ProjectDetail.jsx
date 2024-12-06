@@ -8,14 +8,17 @@ import "swiper/css/pagination";
 
 // Importa los módulos necesarios de Swiper
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-
 // Configura Swiper para usar los módulos
 import SwiperCore from "swiper";
+import { useEffect } from "react";
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 export default function ProjectDetail({ project, onBackProject }) {
 
+  useEffect(() => {
 
+    window.scrollTo(0, 0);
+  }, []); 
   return (
     <div className="w-full m-auto px-4">
 
@@ -29,7 +32,7 @@ export default function ProjectDetail({ project, onBackProject }) {
         Back
       </IoChevronBackCircleSharp>
       </div>
-      <h1 className=" flex items-center justify-center font-bold text-3xl mr-auto ">{project.name}</h1> </div>
+      <h1 className=" flex items-center justify-center font-bold text-3xl mr-auto mb-10 ">{project.name}</h1> </div>
       <div className="relative overflow-hidden ">
         <Swiper
           spaceBetween={10} 

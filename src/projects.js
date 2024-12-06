@@ -2,7 +2,7 @@ export const projects1 = [
     {
       id: 1,
       name: "TodoList",
-      description: "Aplicacion para la gestion de tareas",
+      description: "Task management application",
       languaje: "React",
       images: [
         "/images/react.png",
@@ -15,7 +15,7 @@ export const projects1 = [
     {
       id: 2,
       name: "Codink Game",
-      description: "Juego de adivinar el codigo",
+      description: "Code guessing game",
       languaje: "Vue",
       images: [
         "/images/vue.png",
@@ -27,8 +27,8 @@ export const projects1 = [
     },
     {
       id: 3,
-      name: "Pygame",
-      description: "Juego en la libreria de python pygame",
+      name: "Ole game",
+      description: "Game developed using the Pygame library in Python",
       languaje: "Python",
       images: [
         "/images/python.png",
@@ -40,8 +40,8 @@ export const projects1 = [
     },
     {
       id: 4,
-      name: "Java",
-      description: "Trabajando estaciones de bus en la consola",
+      name: "Bus station simulator",
+      description: "Simulating bus stations in the console",
       languaje: "Java",
       images: [
         "/images/java.png",

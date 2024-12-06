@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
 import { GoProjectSymlink } from "react-icons/go";
 import { SiHyperskill } from "react-icons/si";
-import SearchBar from "../SearchBar/SearchBar";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
@@ -34,7 +33,7 @@ export default function Header({ onMenuToggle }) {
             <h1 className="text-2xl">JuCa</h1>
           </div>
           <div className="flex felx-row items-center gap-2">
-            <SearchBar />
+            
             <Link target="_blank" rel="noopener noreferrer" to={"https://www.facebook.com/1jcao3"}><FaFacebook className="text-2xl text-[#ffffff]" /></Link>
             <Link target="_blank" rel="noopener noreferrer" to={"https://www.instagram.com/1jcao3/"}><IoLogoInstagram className="text-3xl text-[#ffffff]" /></Link>
             <Link target="_blank" rel="noopener noreferrer" to={"https://wa.me/3133746649"}><IoLogoWhatsapp className="text-3xl text-[#ffffff]" /></Link>

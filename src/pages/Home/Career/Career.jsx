@@ -5,54 +5,56 @@ export default function Career() {
   const dataStudy = [
     {
       id: 1,
-      title: "Bachiller acádmico",
+      title: "Academic High School Degree",
       company: "Colegio Salesiano de Duitama",
       description:
-        "Bachiller acádemico con excelentes notas y destacado por su compormiso, disciplina y habilidad para aprender",
+        "Graduated with excellent grades, recognized for commitment, discipline, and the ability to learn quickly.",
       date: "2019",
     },
     {
       id: 2,
-      title: "Tecnico Laboral",
-      company: "Ministerio de las tic",
+      title: "Técnico Laboral",
+      company: "Ministerio de las tecnologías de la información",
       description:
-        "Curso con el ministerio de las tic de Colombia, programacion con especialidad web",
+        "Completed a course with Colombia's Ministry of ICT focused on programming with a web specialization.",
       date: "2020",
     },
     {
       id: 3,
-      title: "Ingenieria de sistemas y computación",
-      company: "Universidad Pedagogica y Tecnologica de Colombia",
-      description: `Estudiante de ingenieria de sitemas caracterizado por el desarollo de 
-      habilidades y bases en conceptos de programacion orientada objetos , teorica y aplicada`,
+      title: "Software Engineering",
+      company: "Univerisidad pedagógica y tecnológica de Colombia",
+      description: `Engineering student recognized for developing skills and a strong foundation in concepts of 
+      object-oriented programming, both theoretical and practical.`,
       date: "2020-2022",
     },
     {
       id: 4,
-      title: "Ingenieria de sistemas",
-      company: "Universidad Nacional Abierta y a Distancia",
+      title: "Software Engineering",
+      company: "Univerisidad nacional abierta y  distancia de Colombia",
       description:
-        "Estudiante de ingenieria caracterizado por el alto rendimiento y la consolidacion de bases",
-      date: "presente",
+        "Engineering student recognized for high performance and the consolidation of a strong foundation.",
+      date: "Present",
     },
+    
   ];
   const dataJobs = [
     {
       id: 1,
-      title: "Tutor de python",
+      title: "Python Tutor",
       company: "Kodland",
       description:
-        "Tutor para niños en plataforma web , dicatando clases y practicas",
+        "Tutor for children on a web platform, teaching classes and guiding practical exercises.",
       date: "2024",
     },
     {
       id: 2,
-      title: "Desarrollador front-end",
+      title: "Front-End Developer",
       company: "Sternenzel EIRL",
-      description: `Trabajo como desarrolador fornt-end para la creacion y manteniemiento de paginas web.
-        Trabajo en equipo empleando figma ,react git ,git hub y jira `,
+      description: `Worked as a front-end developer for creating and maintaining websites.
+        Collaborated in a team using tools like Figma, React, Git, GitHub, and Jira.`,
       date: "2024",
     },
+    
   ];
   return (
     <>

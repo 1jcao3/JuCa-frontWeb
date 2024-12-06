@@ -1,6 +1,7 @@
 
 import { IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -13,24 +14,18 @@ export default function Footer() {
           </div>
           <nav className="mb-4 md:mb-0">
             <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 text-center md:text-left">
-              <li><a href="#home" className="hover:text-gray-400">Home</a></li>
-              <li><a href="#about" className="hover:text-gray-400">About</a></li>
-              <li><a href="#services" className="hover:text-gray-400">Services</a></li>
-              <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
+              <li><a href="/" className="hover:text-gray-400">Home</a></li>
+              <li><a href="/" className="hover:text-gray-400">About</a></li>
+              <li><a href="/skills" className="hover:text-gray-400">Skills</a></li>
+              <li><a href="/settings" className="hover:text-gray-400">Settings</a></li>
             </ul>
           </nav>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center mt-8">
           <div className="flex space-x-4 items-center justify-center mb-4 md:mb-0">
-            <a href="https://facebook.com" className="hover:text-gray-400">
-              <FaFacebook size={24} />
-            </a>
-            <a href="https://instagram.com" className="hover:text-gray-400">
-              <IoLogoInstagram size={28} />
-            </a>
-            <a href="https://whatsapp.com" className="hover:text-gray-400">
-              <IoLogoWhatsapp size={24} />
-            </a>
+          <Link target="_blank" rel="noopener noreferrer" to={"https://www.facebook.com/1jcao3"}><FaFacebook className="text-2xl text-[#ffffff]" /></Link>
+            <Link target="_blank" rel="noopener noreferrer" to={"https://www.instagram.com/1jcao3/"}><IoLogoInstagram className="text-3xl text-[#ffffff]" /></Link>
+            <Link target="_blank" rel="noopener noreferrer" to={"https://wa.me/3133746649"}><IoLogoWhatsapp className="text-3xl text-[#ffffff]" /></Link>
           </div>
           <div className="text-center md:text-right">
             <span className="block mb-2 md:mb-0"><a href="mailto:juliankamilo6@gmail.com" className="hover:text-gray-400">juliankamilo6@gmail.com</a></span>
